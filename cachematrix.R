@@ -6,10 +6,10 @@
 makeCacheMatrix <- function(x = matrix()) {
         ## Set the value of the matrix
         i <- NULL
-                set <- function(y) {
-                x <<- y
-                i <<- NULL
-                }
+        set <- function(y) {
+        x <<- y
+        i <<- NULL
+        }
         ## Get the value of the matrix
         get <- function() x
         
