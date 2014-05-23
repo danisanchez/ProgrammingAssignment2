@@ -10,6 +10,14 @@ i <- NULL
         x <<- y
         i <<- NULL
         }
+## Get the inverse of the matrix
+setinverse <- function(solve) i <<- solve
+getinverse <- function() i
+
+## Get the inverse of the matrix
+list(set = set, get = get,
+     setinverse = setinverse,
+     getinverse = getinverse)
 }
 
 
